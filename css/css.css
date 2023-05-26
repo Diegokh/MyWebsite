@@ -10,13 +10,15 @@
 }
 /** General**/
 html{
-    font-size:16px;
+    font-size:62.5%;
     font-family: 'Noto Sans',sans-serif;
     background-color: var(--oscuro);
 }
 
 body{
+    font-size: 16px;
     color: var(--blanco);
+    margin: 0;
 }
 
 .head{
@@ -27,6 +29,13 @@ body{
     max-width: 120rem;
     margin: 0 auto;
 }
+
+/**Secciones**/
+
+.me{
+    font-size: 2.8rem;
+}
+
 
 /**Tipografia**/
 
@@ -81,7 +90,7 @@ h2{
     margin-top: 5rem;
 }
 
-/**Bloque de textp**/
+/**Bloque de texto**/
 
 .bloquetexto{
     background-color: var(--azul);
@@ -89,6 +98,18 @@ h2{
     padding: 2px;
     width: 20%;
     transition: 1000ms;
-    
-
 }
+
+@media (max-width:768px ) {
+    .bloquetexto{
+        font-size: 150%;
+    }
+}
+
+/**footer**/
+
+.foot{
+    margin-top: 38rem;
+    text-align: center;
+}
+
