@@ -7,6 +7,7 @@
     --gris: #757575;
     --grisclaro: #DFE9F3;
     --azul: #0000FF;
+    --rojo: #FF0000;
 }
 /** General**/
 html{
@@ -32,10 +33,29 @@ body{
 
 /**Secciones**/
 
-.me{
+.section1{
+    display: flex;
+    justify-content: center;
     font-size: 2.8rem;
 }
 
+.section2{
+    display:flex;
+    justify-content: center;
+    font-size: 2.8rem;
+}
+
+.section3{
+    display:flex;
+    justify-content: center;
+    font-size: 2.8rem;
+}
+
+
+
+.proyectos{
+    text-align: right;
+}
 
 /**Tipografia**/
 
@@ -83,6 +103,8 @@ h2{
 
 .bienvenida{
     margin-top: 2rem;
+    display: flex;
+    justify-content: center;
 }
 
 /**bienvenida2**/
@@ -106,10 +128,36 @@ h2{
     }
 }
 
+/**ContenidoMid**/
+
+.bkgmid{
+    background-image: url(../imgn/background.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin-bottom: 0;
+    
+}
+/** Formulario**/
+
+.bkgform{
+    margin-top: 0;
+    background-image: url(../imgn/bkgform.jpg);
+}
+
+.leyenda{
+    text-align: center;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+}
+
 /**footer**/
 
 .foot{
-    margin-top: 38rem;
+    margin-top: 10rem;
     text-align: center;
 }
 
