@@ -31,12 +31,18 @@ body{
     margin: 0 auto;
 }
 
+/**mOVILES**/
+
+
+
 /**Secciones**/
 
 .section1{
     display: flex;
     justify-content: center;
     font-size: 2.8rem;
+    margin-top: 9rem;
+    margin-bottom: 2rem;
 }
 
 .section2{
@@ -49,6 +55,7 @@ body{
     display:flex;
     justify-content: center;
     font-size: 2.8rem;
+    margin-top: 2rem;
 }
 
 
@@ -117,18 +124,25 @@ h2{
 .bloquetexto{
     background-color: var(--azul);
     border-radius: 10px;
-    padding: 2px;
+    padding: 1rem;
     width: 20%;
     transition: 1000ms;
 }
 
 @media (max-width:768px ) {
     .bloquetexto{
+        padding-left: 10%;
+        width: 70%;
         font-size: 150%;
+        border-radius: 20px;
+        padding: 3%;
+        margin: 5%;
     }
 }
 
 /**ContenidoMid**/
+
+
 
 .bkgmid{
     background-image: url(../imgn/background.gif);
@@ -143,6 +157,9 @@ h2{
 .bkgform{
     margin-top: 0;
     background-image: url(../imgn/bkgform.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
 }
 
 .leyenda{
