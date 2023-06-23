@@ -58,10 +58,20 @@ body{
     margin-top: 2rem;
 }
 
+/** Tipografía de los enlaces**/
 
+.bloque a{
+    display: flex;
+    justify-content: center;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 5rem;
+    font-weight: 700;
+}
 
-.proyectos{
-    text-align: right;
+.bloque a:hover{
+    background-color: var(--primario);
+    color: var(--oscuro);
 }
 
 /**Tipografia**/
